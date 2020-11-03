@@ -1,0 +1,62 @@
+
+/* Menu */
+#menu .left ul, #menu .right ul{
+  max-width: 400px;
+  justify-content: center;
+}
+#menu .middle{
+  transform: scale(.75);
+}
+
+/* hero card */
+#hero .container .hero-content .hero-heading {
+  font-size: 45px;
+  border-bottom: solid var(--gold) 25px;
+  line-height: 10px;
+  padding-top: 25px;
+}
+#hero .container .hero-content .hero-heading::before {
+  display: none;
+}
+#hero .container .hero-content p {
+  font-size: 20px;
+}
+#hero .container .hero-content {
+  width: 700px;
+}
+
+/* Introduction */
+#introduction {
+  transform: scale(.9);
+}
+
+/* Founder */
+#founder .container .position .porfolio,
+#founder .container .comment {
+  transform: scale(.85);
+}
+#founder .container .position {
+  position: relative;
+}
+#founder .container .position .comment {
+  position: absolute;
+  top: 300px;
+  left: 380px; 
+}
+#founder .container .quote i {
+  transform: scale(.75);
+  top: -3px;
+  left: -60px;
+  position: absolute;
+}
+
+/* Bar */
+#bar {
+  height: 250px;
+}
+#bar img {
+  height: 250px;
+}
+#bar .container div {
+  transform: scale(.85);
+}

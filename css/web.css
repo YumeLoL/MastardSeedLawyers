@@ -1,0 +1,91 @@
+body {
+  font-family: var(--text);
+  line-height: 1.5;
+  color: var(--primary-color);
+  overflow-x: hidden;
+}
+/* Menu */
+#menu .left ul, #menu .right ul{
+  max-width: 500px;
+  justify-content: center;
+}
+#menu .left ul li, #menu .right ul li {
+  font-size: 16px;
+}
+#menu .middle{
+  transform: scale(.8);
+}
+
+/* hero card */
+#hero .container .hero-content .hero-heading {
+  font-size: 55px;
+  border-bottom: solid var(--gold) 25px;
+  line-height: 12px;
+  padding-top: 30px;
+}
+#hero .container .hero-content .hero-heading::before {
+  display: none;
+}
+#hero .container .hero-content p {
+  font-size: 23px;
+}
+#hero .container .hero-content {
+  width: 800px;
+}
+
+
+/* Founder */
+#founder .container .position .porfolio,
+#founder .container .comment {
+  transform: scale(.95);
+}
+#founder .container .position {
+  position: relative;
+}
+#founder .container .position .comment {
+  position: absolute;
+  top: 300px;
+  left: 380px; 
+}
+#founder .container .quote i {
+  transform: scale(.8);
+  top: -6px;
+  left: -50px;
+  position: absolute;
+}
+
+
+
+/* News & Events card */
+#news-events .container .news-content p {
+  width: 900px;
+}
+#news-events .container .ne-container .news-card .news-type,
+#news-events .container .ne-container .events-card .events-type,
+#news-events .container .ne-container .events-card .events-catagory, 
+#news-events .container .date {
+  font-size: 14px;
+}
+#news-events .container .article-header {
+  font-size: 18px;
+}
+#news-events .container .ne-container .events-card,
+#news-events .container .ne-container .news-card
+ {
+  height: 500px;
+}
+
+/* Footer */
+#footer .f-container h5 {
+  font-size: 16px;
+}
+#footer .f-container span {
+  font-size: 14px;
+}
+#footer .f-container .info-footer div {
+  height: fit-content;
+}
+#footer .f-container .info-footer span{
+  display: inline-block;
+  padding: 2px;
+}

@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen and (max-width:1366px)"  href="/css/web.css">
+  <link rel="stylesheet" media="screen and (max-width:1130px)"  href="/css/ipad.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand&family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/0e1d4bf551.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <title>FAQs</title>
+</head>
+<body>
+  <!-- Dropdown Menu -->
+  <header id="menu">
+    <div class="left">
+      <ul>
+        <li><a href="/index.html">Welcome</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Expertise <i class="fas fa-caret-down"></i></a>
+          <ul class="dropdown1">
+            <li><a href="/expertise.html">Family Law</a></li>
+            <li><a href="#">Migration Law</a></li>
+            <li><a href="#">Business Law</a></li>
+            <li><a href="#">Personal Injury</a></li>
+            <li><a href="#">Criminal Law</a></li>
+            <li><a href="#">Civil Litigation</a></li>
+            <li><a href="#">Property Law</a></li>
+            <li><a href="#">Attorney</a></li>
+            <li><a href="#">Will & Probate</a></li>
+            <li><a href="#">Employment</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="middle">
+      <img src="/img/logo/navlogo.png" alt="">
+    </div>
+
+    <div class="right">
+      <ul>
+        <li><a href="#">News & Events <i class="fas fa-caret-down"></i></a>
+          <ul class="dropdown2">
+            <li><a href="#">News</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Events</a></li>
+          </ul>
+        </li>
+        <li><a href="/faq.html" class="active">FAQ</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Hamburger Menu -->
+
+      <div class="burger">
+
+        <input type="checkbox" id="toggler">
+        <label for="toggler" class="burger-icon"></label>
+        <nav class="burger-nav">
+          <ul>
+            <li><a href="/index.html">Welcome</a></li>
+            <li><a href="/about_us.html">About Us</a></li>
+            <li class="active">
+              <input type="checkbox" id="toggler1">
+              <label for="toggler1"><h4>Expertise <i class="fas fa-caret-down"></i></h4></label>             
+              <ul class="dropdown">
+                <li><a href="/expertise.html">Family Law</a></li>
+                <li><a href="#">Migration Law</a></li>
+                <li><a href="#">Business Law</a></li>
+                <li><a href="#">Personal Injury</a></li>
+                <li><a href="#">Criminal Law</a></li>
+                <li><a href="#">Civil Litigation</a></li>
+                <li><a href="#">Property Law</a></li>
+                <li><a href="#">Attorney</a></li>
+                <li><a href="#">Will & Probate</a></li>
+                <li><a href="#">Employment</a></li>
+              </ul>
+            </li>
+            <li>
+              <input type="checkbox" id="toggler2">
+              <label for="toggler2"><h4>News & Events <i class="fas fa-caret-down"></i></h4></label>
+              <ul class="dropdown">
+                <li><a href="#">News</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Events</a></li>
+              </ul>
+            </li>
+            <li><a href="/faq.html" >FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>  
+  </header>
+
+  <!-- Hero Card -->
+  <section id="faq-hero">
+    <div class="faq-hero-img"></div>
+    <div class="container">
+      <div class="faq-hero-content">
+        <div class="faq-hero-left">
+          <h4 class="p-4">Lorem Ipsum Dolor Dolor</h4>
+          <h4 class="p-4">Lorem Ipsum Dolor</h4>
+          <h4 class="p-4">Lorem Ipsum</h4>
+        </div>
+          <a href="#form"><span class="btn-h">Schedule A Free Consultation <i class="fas fa-arrow-right"></i></span></a>       
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="container sidebar-c">
+      <div class="sidebar">
+        <ul class="sidebar-container">
+          <li><a href="#faq-family">Family Law</a></li>
+          <li><a href="#faq-migration">Migration Law</a></li>
+          <li><a href="#faq-busness">Business Law</a></li>
+          <li><a href="#faq-personal">Personal Injury</a></li>
+          <li><a href="#faq-criminal">Criminal Law</a></li>
+          <li><a href="#faq-civil">Civil Litigation</a></li>
+          <li><a href="#faq-property">Property Law</a></li>
+          <li><a href="#faq-attorney">Attorney</a></li>
+          <li><a href="#faq-will">Will & Probate</a></li>
+          <li><a href="#faq-employment">Employment</a></li>
+          <div class="logo-animation">
+            <img src="/img/logo/logo-ainimation.png" alt="">
+          </div>
+        </ul>
+      </div>
+      <div class="faq-list">
+        <div class="faq-container">
+          <!-- family law faq -->
+          <div class="faq-accordion">
+
+            <div id="faq-family" class="title-shape family-title-color" style="background-color: #95AA63;">
+              <p class="p-6">Family Law</p>
+            </div>
+
+            <div class="accordion-item" id="family-q1">
+              <a href="#family-q1" class="accordion-link family-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #95AA63;"></i>
+                <i class="fas fa-minus" style="color: #95AA63;"></i>
+              </a>
+              <div class="answer family-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="family-q2">
+              <a href="#family-q2" class="accordion-link family-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #95AA63;"></i>
+                <i class="fas fa-minus" style="color: #95AA63;"></i>
+              </a>
+              <div class="answer family-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="family-q3">
+              <a href="#family-q3" class="accordion-link family-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #95AA63;"></i>
+                <i class="fas fa-minus" style="color: #95AA63;"></i>
+              </a>
+              <div class="answer family-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <!-- migration law faq -->
+            <div id="faq-migration" class="title-shape migration-title-color" style="background-color: #5A966E;"><p class="p-6">Migration Law</p></div>
+            <div class="accordion-item" id="migration-q1">
+              <a href="#migration-q1" class="accordion-link migration-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #5A966E;"></i>
+                <i class="fas fa-minus" style="color: #5A966E;"></i>
+              </a>
+              <div class="answer migration-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="migration-q2">
+              <a href="#migration-q2" class="accordion-link migration-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #5A966E;"></i>
+                <i class="fas fa-minus" style="color: #5A966E;"></i>
+              </a>
+              <div class="answer migration-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="migration-q3">
+              <a href="#migration-q3" class="accordion-link migration-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #5A966E;"></i>
+                <i class="fas fa-minus" style="color: #5A966E;"></i>
+              </a>
+              <div class="answer migration-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <!-- business law faq -->
+            <div id="faq-business" class="title-shape business-title-color" style="background-color: #307E74;"><p class="p-6">Business Law</p></div>
+            <div class="accordion-item" id="business-q1">
+              <a href="#business-q1" class="accordion-link business-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #307E74;"></i>
+                <i class="fas fa-minus" style="color: #307E74;"></i>
+              </a>
+              <div class="answer business-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="business-q2">
+              <a href="#business-q2" class="accordion-link business-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #307E74;"></i>
+                <i class="fas fa-minus" style="color: #307E74;"></i>
+              </a>
+              <div class="answer business-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="business-q3">
+              <a href="#business-q3" class="accordion-link business-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #307E74;"></i>
+                <i class="fas fa-minus" style="color: #307E74;"></i>
+              </a>
+              <div class="answer business-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <!-- personal injury faq -->
+            <div id="faq-personal" class="title-shape personal-title-color" style="background-color: #26636E;"><p class="p-6">Personal Injury</p></div>
+            <div  id="personal-q1" class="accordion-item" >
+              <a href="#personal-q1" class="accordion-link personal-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #26636E;"></i>
+                <i class="fas fa-minus" style="color: #26636E;"></i>
+              </a>
+              <div class="answer personal-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="personal-q2">
+              <a href="#personal-q2" class="accordion-link personal-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #26636E;"></i>
+                <i class="fas fa-minus" style="color: #26636E;"></i>
+              </a>
+              <div class="answer personal-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="personal-q3">
+              <a href="#personal-q3" class="accordion-link personal-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #26636E;"></i>
+                <i class="fas fa-minus" style="color: #26636E;"></i>
+              </a>
+              <div class="answer personal-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <!-- criminal law faq -->
+            <div id="faq-criminal" class="title-shape criminal-title-color" style="background-color: #D9B766;"><p class="p-6">Criminal Law</p></div>
+            <div  id="criminal-q1" class="accordion-item" >
+              <a href="#criminal-q1" class="accordion-link criminal-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #D9B766;"></i>
+                <i class="fas fa-minus" style="color: #D9B766;"></i>
+              </a>
+              <div class="answer criminal-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="criminal-q2">
+              <a href="#criminal-q2" class="accordion-link criminal-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #D9B766;"></i>
+                <i class="fas fa-minus" style="color: #D9B766;"></i>
+              </a>
+              <div class="answer criminal-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="criminal-q3">
+              <a href="#criminal-q3" class="accordion-link criminal-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #D9B766;"></i>
+                <i class="fas fa-minus" style="color: #D9B766;"></i>
+              </a>
+              <div class="answer criminal-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <!-- civil litigation faq -->
+            <div id="faq-civil" class="title-shape civil-title-color" style="background-color: #95AA63;"><p class="p-6">Civil Litigation</p></div>
+            <div  id="civil-q1" class="accordion-item" >
+              <a href="#civil-q1" class="accordion-link civil-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #95AA63;"></i>
+                <i class="fas fa-minus" style="color: #95AA63;"></i>
+              </a>
+              <div class="answer civil-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="civil-q2">
+              <a href="#civil-q2" class="accordion-link civil-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #95AA63;"></i>
+                <i class="fas fa-minus" style="color: #95AA63;"></i>
+              </a>
+              <div class="answer civil-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="civil-q3">
+              <a href="#civil-q3" class="accordion-link civil-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #95AA63;"></i>
+                <i class="fas fa-minus" style="color: #95AA63;"></i>
+              </a>
+              <div class="answer civil-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <!-- property law faq -->
+            <div id="faq-property" class="title-shape property-title-color" style="background-color: #5A966E;"><p class="p-6">Property Law</p></div>
+            <div  id="property-q1" class="accordion-item" >
+              <a href="#property-q1" class="accordion-link property-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #5A966E;"></i>
+                <i class="fas fa-minus" style="color: #5A966E;"></i>
+              </a>
+              <div class="answer property-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="property-q2">
+              <a href="#property-q2" class="accordion-link property-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #5A966E;"></i>
+                <i class="fas fa-minus" style="color: #5A966E;"></i>
+              </a>
+              <div class="answer property-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="property-q3">
+              <a href="#property-q3" class="accordion-link property-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #5A966E;"></i>
+                <i class="fas fa-minus" style="color: #5A966E;"></i>
+              </a>
+              <div class="answer property-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <!-- attorney faq -->
+            <div id="faq-attorney" class="title-shape attorney-title-color" style="background-color: #307E74;"><p class="p-6">Attorney</p></div>
+            <div  id="attorney-q1" class="accordion-item" >
+              <a href="#attorney-q1" class="accordion-link attorney-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #307E74;"></i>
+                <i class="fas fa-minus" style="color: #307E74;"></i>
+              </a>
+              <div class="answer attorney-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="attorney-q2">
+              <a href="#attorney-q2" class="accordion-link attorney-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #307E74;"></i>
+                <i class="fas fa-minus" style="color: #307E74;"></i>
+              </a>
+              <div class="answer attorney-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="attorney-q3">
+              <a href="#attorney-q3" class="accordion-link attorney-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #307E74;"></i>
+                <i class="fas fa-minus" style="color: #307E74;"></i>
+              </a>
+              <div class="answer attorney-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <!-- will & probate faq -->
+            <div id="faq-will" class="title-shape will-title-color" style="background-color: #26636E;"><p class="p-6">Will & Probate</p></div>
+            <div  id="will-q1" class="accordion-item" >
+              <a href="#will-q1" class="accordion-link will-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #26636E;"></i>
+                <i class="fas fa-minus" style="color: #26636E;"></i>
+              </a>
+              <div class="answer will-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="will-q2">
+              <a href="#will-q2" class="accordion-link will-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #26636E;"></i>
+                <i class="fas fa-minus" style="color: #26636E;"></i>
+              </a>
+              <div class="answer will-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="will-q3">
+              <a href="#will-q3" class="accordion-link will-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #26636E;"></i>
+                <i class="fas fa-minus" style="color: #26636E;"></i>
+              </a>
+              <div class="answer will-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <!-- employment faq -->
+            <div id="faq-employment" class="title-shape employment-title-color" style="background-color: #D9B766;"><p class="p-6">Employment</p></div>
+            <div  id="employment-q1" class="accordion-item" >
+              <a href="#employment-q1" class="accordion-link employment-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #D9B766;"></i>
+                <i class="fas fa-minus" style="color: #D9B766;"></i>
+              </a>
+              <div class="answer employment-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="employment-q2">
+              <a href="#employment-q2" class="accordion-link employment-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #D9B766;"></i>
+                <i class="fas fa-minus" style="color: #D9B766;"></i>
+              </a>
+              <div class="answer employment-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+            <div class="accordion-item" id="employment-q3">
+              <a href="#employment-q3" class="accordion-link employment-icon-color">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur?
+                <i class="fas fa-plus" style="color: #D9B766;"></i>
+                <i class="fas fa-minus" style="color: #D9B766;"></i>
+              </a>
+              <div class="answer employment-anser-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum obcaecati aut ad doloremque repudiandae quia veritatis facilis perspiciatis quos deserunt, perferendis laboriosam repellendus architecto consequatur reprehenderit. Soluta, aliquid inventore.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- form -->
+  <section id="form">
+    <div class="container">
+      <div>
+        <h3 class="form-info p-5">Lorem Ipsum Dolor Dolor Sit Amet</h3>
+        <p class="p-6">Nullam montes sociis eget auctor fames malesuada donec posuere ac, nam et torquent quis mollis velit vulputate nisi eleifend</p>
+      </div>
+
+      <div class="consultation">
+        <h3 class="p-5">Free Consultation</h3>
+        <form action="">
+          <input type="text" placeholder=" Full Name" required>
+          <input type="text" placeholder=" Phone" required>
+          <input type="email" placeholder=" Email" required>
+          <textarea placeholder="  Message" cols="30" rows="10"></textarea>  
+          <input class="btn" type="submit" placeholder="Send Message" required>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="footer">
+    <div class="f-container">
+      <div class="footer-img">
+        <img src="/img/logo/footer-logo.svg" alt="">
+      </div>
+
+      <div class="info-footer">
+        <h5 class="p-6">Contact Info</h5>
+        <div>
+          <span><i class="far fa-calendar-alt"></i>Monday - Friday</span><br>
+          <span><i class="far fa-clock"></i>9:00 am - 5:00 pm</span><br>
+          <span><i class="fas fa-phone-alt"></i> (xx)xxx-xxx-xxxx</span><br>
+          <span><i class="far fa-envelope"></i> info@gmail.com</span>
+        </div>  
+      </div>
+      
+      <div class="site-link">
+        <h5 class="p-6">Site Links</h5>
+        <div>
+          <a href="#"><span>Home</span></a>
+          <a href="#"><span>News</span></a>
+          <a href="#"><span>About</span></a>
+          <a href="#"><span>Blogs</span></a>
+          <a href=""><span>Services</span></a>
+          <a href=""><span>Contact</span></a>
+        </div>  
+      </div>
+
+      <div class="weichat-img">
+        <img src="/img/WeChat Image.png" alt="weichat">
+      </div>
+
+      <div class="icon-links">
+        <a href="#"><i class="fab fa-twitter weichat"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="far fa-envelope"></i></a>
+      </div>
+
+      <div class="copyright">
+        <p>&copy;2020 MustardSeedLawyers. All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
