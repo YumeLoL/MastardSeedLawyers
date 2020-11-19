@@ -246,7 +246,7 @@ a {
   display: none;
 }
 #menu .burger .burger-icon {
-  background: url(img/icon/bars-solid.svg) no-repeat left center;
+  background: url(/img/icon/bars-solid.svg) no-repeat left center;
   cursor: pointer;
   height: 30px;
   width: 30px;
@@ -262,7 +262,7 @@ a {
   height: 95vh;
   /* 'linear-gradient' to set gradient cover */
   background: 
-  linear-gradient(to right, #95aa6333, #5a966e2c), url(img/home-bg1.jpg) no-repeat center center/cover;
+  linear-gradient(to right, #95aa6333, #5a966e2c), url(/img/home-bg1.jpg) no-repeat center center/cover;
   z-index: 1;
 }
 #hero .container {
@@ -686,7 +686,7 @@ a {
 
 /* Bar */
 #bar {
-  background: url(img/professionals.jpg) no-repeat center center/cover;
+  background: url(/img/professionals.jpg) no-repeat center center/cover;
   max-height: 300px;
   display: flex;
   background-attachment: fixed;
@@ -850,7 +850,7 @@ a {
 
 /* form */
 #form {
-  background: url(img/building1.jpg) no-repeat center center/cover;
+  background: url(/img/building1.jpg) no-repeat center center/cover;
   height: 800px;
   border-top: 5px solid var(--gold);
   border-bottom: 5px solid var(--gold);
@@ -1107,7 +1107,7 @@ a {
     display: none;
   }
   #toggler:checked ~ .burger-icon {
-    background: url(img/icon/times-solid.svg) no-repeat left center;
+    background: url(/img/icon/times-solid.svg) no-repeat left center;
     color: var(--primary-color);
     transition: .2s ease-in;
   }
@@ -1549,7 +1549,7 @@ a {
   place-items: center;  
 }
 #about-us .bg-img {
-  background: url(img/city-bg.jpg) no-repeat center center/cover;
+  background: url(/img/city-bg.jpg) no-repeat center center/cover;
   height: 1200px;
   width: 100%;
   filter:grayscale(1);
@@ -1633,7 +1633,7 @@ a {
   height: 80%;
   width: 100%;
   transform: scale(1);
-  background: url(img/office-building.png) no-repeat center center/cover;
+  background: url(/img/office-building.png) no-repeat center center/cover;
   border: 15px solid white;
 }
 #about-us .container div .side-section .g-1 {
@@ -1916,7 +1916,7 @@ a {
 
 /* FAQs page */
 #faq-hero .faq-hero-img {
-  background: url(img/lawyers.jpg) no-repeat center center/cover ;
+  background: url(/img/lawyers.jpg) no-repeat center center/cover ;
   filter: grayscale(1);
   height: 650px;
   width: 100%;
